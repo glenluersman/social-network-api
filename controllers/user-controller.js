@@ -74,7 +74,11 @@ const userController = {
       console.log(err);
       res.status(400).json(err);
     });
-  }
+  },
+
+  addFriend(req, res) {},
+
+  deleteFriend(req, res) {}
 };
 
 module.exports = userController;
