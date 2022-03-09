@@ -65,10 +65,10 @@ const thoughtController = {
     });
   },
 
-  addReaction({params, body}, res) {
+  addReaction(req, res) {
     Thought.findOneAndUpdate(
-      { _id: params.thoughtId },
-      { $push: { reactions: body } },
+      { _id: req.params.thoughtId },
+      { $push: { reactions: req.body } },
       { new: true, runValidators: true }
     )
     .then(dbThoughtData => {

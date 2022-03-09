@@ -27,19 +27,46 @@
 
 ## <img id="about" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true" style="height: 40px">
 
+# User Story
 
+```
+AS A social media startup
+I WANT an API for my social network that uses a NoSQL database
+SO THAT my website can handle large amounts of unstructured data
+```
+
+# Acceptance Criteria
+
+```
+GIVEN a social network API
+WHEN I enter the command to invoke the application
+THEN my server is started and the Mongoose models are synced to the MongoDB database
+WHEN I open API GET routes in Insomnia for users and thoughts
+THEN the data for each of these routes is displayed in a formatted JSON
+WHEN I test API POST, PUT, and DELETE routes in Insomnia
+THEN I am able to successfully create, update, and delete users and thoughts in my database
+WHEN I test API POST and DELETE routes in Insomnia
+THEN I am able to successfully create and delete reactions to thoughts and add and
+```
 
 ## <img id="installing" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/installing.png?raw=true" style="height: 40px">
 
-
+1. Clone the repository.
+2. Run the command `npm install`.
+3. Run the command `npm start`.
+4. Open Insomnia and test routes.
 
 ## <img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 40px">
 
-
+Screencastify URL: https://drive.google.com/file/d/1qonRdxqF06pPkbLQI0fZeo1zAe8hXufD/view
 
 ## <img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px">
 
-
+- Node.js
+- Express.js
+- Javascript
+- Mongoose
+- MongoDB
 
 ## <img id="authors" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/authors.png?raw=true" style="height: 40px">
 
@@ -51,4 +78,6 @@
 
 ## <img id="screenshots" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px">
 
-<img style="margin: 0 0 15px 0" src="./images/" ></a>
+<img style="margin: 0 0 15px 0" src="./images/social1.PNG" ></a>
+
+<img style="margin: 0 0 15px 0" src="./images/social2.PNG" ></a>
